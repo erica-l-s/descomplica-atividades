@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* display: grid;
+    grid-row: 1fr 1fr 1fr;
+    padding: 20px; */
+    background: linear-gradient(180deg, rgba(169, 123, 136, 1) 0%, rgba(106, 26, 47, 1) 38%);
+}
+
+.header .logo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #DFA7B6;
+}
+
+.navbar-nav a:hover{
+    text-decoration: none;
+    color: #ac2d4f;
+}
+.decoracao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #DFA7B6;
+    background-image: url("./src/img/imagem-inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #DFA7B6;
+
+}
+.decoracao a{
+    text-decoration: none;
+    color: #ac2d4f;
+}
+.decoracao a:hover{
+    text-decoration: none;
+    color: #B25C73;
+}
+
+.colecao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #805B65;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 3px solid #E8E6E6;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.secao-carrossel {
+    background-color: #E8E6E6;
+}
+
+.carousel-item {
+    margin: 20px 0 40px 0;
+}
+
+.img-promo1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-promo1 img {
+    border: 10px solid #DFA7B6;
+    width: 500px;
+}
+
+.img-promo1 h2 {
+    margin-top: 20px;
+    top: 0;
+    position: absolute;
+    padding: 10px;
+    background-color: #805B65;
+}
+
+.img-promo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    background-color: #B25C73;
+    margin-left: 30%;
+}
+
+.img-promo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img-promo3 img {
+    width: 500px;
+}
+
+.img-promo3-link{
+    background-color: #000000;
+    color: #E8E6E6;
+    width: 300px;
+    margin-left: 35%;
+}
+
+#quem-somos{
+    padding: 20px;
+    height: 100%;
+    background-color: #DFA7B6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.quem-somos{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ padding: 20px;
+ gap: 20px;
+}
+
+
+#quem-somos h2{
+    margin-bottom: 50px;
+}
+
+#nosso-time,#produtos{
+    height: 100%;
+    padding: 20px;
+    background-color: #E8E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.all-cards{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+   
+}
+
+#produtos{
+    background-color: #DFA7B6;
+}
+
+.produtos{
+  background-color: #E8E6E6;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+   
+}
+.card-text s{
+    color: #cc9eaa;
+}
+
+.politicas{
+    background-color: #B25C73;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    box-shadow: 4px 8px 8px 8px #000000;
+   
+}
+
+.politica,
+.empresa,
+.pagamento{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #957D74;
+    margin-top: 20px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+.politica{
+    margin-left: 50px;
+}
+.pagamento{
+    margin-right: 50px;
+}
+
+i{
+ color: #B25C73;
+ margin: 10px;
+ 
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#E9E7E7;
+    gap: 20px;
+}
+
+
